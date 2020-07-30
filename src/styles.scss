@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif !important;
+    padding: 10px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 60px;
+    height: 70px;
+    position: absolute;
+}
+
+.coin {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}

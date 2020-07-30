@@ -1,0 +1,13 @@
+<mat-dialog-content class="mat-typography">
+    <form>
+        <mat-form-field>
+            <input type="number" matInput [(ngModel)]="boardWidth" [ngModelOptions]="{standalone: true}" placeholder="Please Enter Board Width" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input type="number" matInput [(ngModel)]="boardheight" [ngModelOptions]="{standalone: true}" placeholder="Please Enter Board Height" required>
+        </mat-form-field>
+        <div class="btn-wrapper">
+            <button type="submit" mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Confirm</button>
+        </div>
+    </form>
+</mat-dialog-content>
